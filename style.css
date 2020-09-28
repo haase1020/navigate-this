@@ -29,7 +29,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: rgba(0, 0, 0, 0.7); */
   transform: translateX(-100vw);
 }
 
@@ -75,7 +75,7 @@ nav li a {
 }
 
 nav li a:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 nav li a::before {
@@ -226,7 +226,7 @@ section {
 }
 
 section#home {
-  background-image: url('https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
+  background-image: url('https://images.unsplash.com/photo-1509392671875-6ad9dd6ccf9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
   background-size: cover;
   background-position: center center;
 }
