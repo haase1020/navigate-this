@@ -2,8 +2,8 @@
 
 :root {
   --primaryColor: #fff;
-  --navColor1: #51e2f5;
-  --navColor2: #9df9ef;
+  --navColor1: #135e68;
+  --navColor2: #26a092;
   --navColor3: #ffa8b6;
   --navColor4: #a28089;
   --navColor5: #8458b3;
@@ -238,7 +238,8 @@ section#home a {
   top: 1.5rem;
   left: 1.5rem;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: bold;
   padding-bottom: 5px;
   color: var(--primaryColor);
   border-bottom: 1px solid var(--primaryColor);
@@ -271,4 +272,9 @@ section#contact {
     top: 0.5rem;
     right: 1rem;
   }
+}
+
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
 }
